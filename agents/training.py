@@ -7,7 +7,7 @@ import util
 
 
 class Trainer(object):
-  def __init__(self, config):
+  def __init__(self, config,sth):
     util.log('Creating network and training operations')
     self.config = config
 
