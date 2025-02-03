@@ -127,7 +127,7 @@ def main(_):
 
   signal.signal(signal.SIGINT, stop_training)
 
-  if config.profile:
+  if config..profile:
     import cProfile as profile
     profile.runctx('trainer.train()', globals(), locals(), 'main.prof')
   else:
